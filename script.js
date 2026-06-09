@@ -17,8 +17,8 @@ const currentYear = currentDate.getFullYear();
 
 
 if (!localStorage.getItem("emailLogged")) {
-    if (window.location.pathname !== '/login') {
-        window.location.href = '/login';
+    if (window.location.pathname !== '/livord/login') {
+        window.location.href = '/livord/login';
     }
 }
 
